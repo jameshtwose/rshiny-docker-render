@@ -9,4 +9,5 @@ RUN R -e 'install.packages(c(\
           )'
 WORKDIR /home/shinyusr
 COPY app.R app.R 
+COPY www www
 CMD Rscript app.R
