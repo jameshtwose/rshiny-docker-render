@@ -1,0 +1,39 @@
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+    --darkgrey: #303030;
+    --yellow: #fcdd14;
+    --yellowgradient: #fcdd14e3;
+    --white: #ffffff;
+    --purple: #8f0fd4;
+    --purplegradient: #8f0fd4ce;
+}
+
+h1 {
+    color: var(--yellow);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+a {
+    color: var(--yellow);
+}
+
+a:hover {
+    color: var(--purple);
+}
+
+footer.footer {
+    font-size: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    background-color: var(--darkgrey);
+}
