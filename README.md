@@ -1,6 +1,11 @@
 # rshiny-docker-render
 Creating a simple r shiny web app, running it locally, hosting it locally via docker (desktop), and deploying via docker and render.com
 
+## Video tutorial
+<a href="https://www.youtube.com/watch?v=RX4kGsIZxao">
+<img src="rshiny-docker-render-tutorial-thumbnail.jpg" width="70%"/>
+</a>
+
 ## Running (locally)
 - Clone this repo
   - `git clone git@github.com:jameshtwose/rshiny-docker-render.git`
